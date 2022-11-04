@@ -4,11 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Aqui dice: dentro de index.html en el div con id= "root" ponme App.js
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <App /> // Esta es App.js
 );
 
 // If you want to start measuring performance in your app, pass a function
